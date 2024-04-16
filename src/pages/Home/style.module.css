@@ -1,0 +1,37 @@
+.wrapper{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inner{
+    height: 100%;
+    width: var(--default-layout-width);
+}
+
+.itemList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+}
+.social-container{
+    background-color: red;
+}
+
+@media screen and (min-width: 1200px) {
+    .itemList {
+        column-gap: 4.5px
+    }
+  }
+  
+  @media screen and (min-width: 1700px) {
+    .itemList {
+        column-gap: 2.5px
+    }
+  }
+  
+  @media screen and (min-width: 1920px) {
+    .itemList {
+        column-gap: 12.5px
+    }
+  }
